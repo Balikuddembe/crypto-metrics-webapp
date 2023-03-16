@@ -1,15 +1,18 @@
 import React from 'react';
-import crptoImg from '../Images/cryptoImg.jpg';
+import { Link } from 'react-router-dom';
+import cryptoImg from '../Images/cryptoImg.jpg';
+import arrow from '../Images/arrow-icon.png';
 
-function NavBar() {
-  return (
-    <div>
-
+const NavBar = () => (
+  <header>
+    <div className="left">
+      <Link to="/">
+        <img src={arrow} alt="arrow-back" />
+      </Link>
       <h1>Cryptocurrency</h1>
-
-      <img src={crptoImg} alt="img" />
     </div>
-  );
-}
+    <img src={cryptoImg} alt="img" />
+  </header>
+);
 
 export default NavBar;

@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { fetchCoins } from '../redux/coinsItems/coinsItemsSlice';
 
-function CoinsItems() {
+const CoinsItems = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchCoins());
+  }, [dispatch]);
   return (
-    <>
-    </>
+    <></>
   );
-}
+};
 
 export default CoinsItems;

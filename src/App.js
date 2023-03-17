@@ -1,21 +1,17 @@
 import React from 'react';
-import {
-  BrowserRouter, Route, Routes,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CoinsDetails from './components/CoinsDetails';
 import CoinsItems from './components/CoinsItems';
 import NavBar from './components/NavBar';
 
 const App = () => (
-  <BrowserRouter>
-
+  <Router>
     <NavBar />
     <Routes>
       <Route path="/" element={<CoinsItems />} />
-      <Route path="/details" element={<CoinsDetails />} />
+      <Route path="/details/:id/" element={<CoinsDetails />} />
     </Routes>
-  </BrowserRouter>
-
+  </Router>
 );
 
 export default App;

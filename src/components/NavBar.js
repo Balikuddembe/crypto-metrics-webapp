@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import cryptoImg from '../Images/cryptoImg.jpg';
-import arrow from '../Images/arrow-icon.png';
+import menu from '../Images/menu.png';
+import arrow from '../Images/arrow_back.svg';
+import '../styles/NavBar.css';
 
 const NavBar = () => (
   <header>
@@ -11,7 +12,7 @@ const NavBar = () => (
       </Link>
       <h1>Cryptocurrency</h1>
     </div>
-    <img src={cryptoImg} alt="img" />
+    <img src={menu} alt="img" />
   </header>
 );
 

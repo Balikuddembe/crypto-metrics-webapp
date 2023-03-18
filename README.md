@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](coming soon)
+- [Live Demo](https://fantastic-croquembouche-03c342.netlify.app/)
 - [Live Video](https://www.loom.com/share/85a8c86996cc475aa77fae67ccb3a4a3)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +160,5 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

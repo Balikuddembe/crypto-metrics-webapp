@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCoins } from '../redux/coinsItems/coinsItemsSlice';
-import banner from '../Images/banner.jpg';
+import banner from '../Images/cryptoImg.jpg';
 import searchIcon from '../Images/find.svg';
 import '../styles/coinsItems.css';
 import '../styles/spinner.css';
